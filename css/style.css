@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Carter One';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../font/CarterOne.ttf") format('ttf')
+}
+#titulo{
+    font-family: "Carter One";
+    font-size: 2em;
+    color: white;
+    margin-top: 6vmax;
+    text-shadow: -3px -1px 1px #683A35;
+}
+body{
+    width: 100%;
+    font-family: "Carter One";
+    text-shadow: -1px -1px 1px #683A35;
+}
+#logo{
+    box-shadow: 2px 2px 39px 7px #683A35 inset;
+    border-radius: 50%;
+    width: 15vmax;
+    height: 15vmax;
+    margin:1vh;
+}
+
+header{
+    width: 100%;
+    background-image: url(../img/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 122%;
+    background-attachment: fixed;
+}
+.social-bar{
+    margin-top: 2vmax;
+}
+@media (max-width:768px){
+    .social-bar{
+        text-align: center !important;
+    }
+    .search{
+        display: none;
+    }
+    nav > div > div {
+        background: transparent !important;
+        padding: 0vh;
+        border-radius: 0px;
+    }
+    nav > div > div > div>span {
+        background:transparent !important;
+        border: none !important;
+        border-bottom: solid 1px white !important;
+        color: white;
+        border-radius: 0px !important;
+    }
+}
+@media (max-width:576px){
+    .social-bar{
+        margin-top: 1vmax;
+    }
+}
+
+.social-icon{
+    display: inline-block;
+    margin-left: 1vmax;
+    margin-right: 1vmax;
+    background-size: cover;
+    width: 3.07vmax;
+    height: 3vmax;
+    box-shadow: 0px 1px 3px 1px white;
+}
+hr{
+    border-color: white;
+}
+.icon-facebook{
+    background-image: url("../img/social-media/icon-facebook.png");
+}
+.icon-twitter{
+    background-image: url("../img/social-media/icon-linkedin.png");
+}
+.icon-instagram{
+    background-image: url("../img/social-media/icon-instagram.png");
+}
+.icon-skype{
+    background-image: url("../img/social-media/icon-skype.png");
+}
+.icon-linkedin{
+    background-image: url("../img/social-media/icon-linkedin.png");
+}
+.icon-github{
+    background-image: url("../img/social-media/icon-github.png");
+}
+.img-thumbnail{
+    margin-top: 8vh;
+    margin-bottom: 20px;
+}
+input, textarea{
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+}
+textarea{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 92%;
+    margin-left: 4%;
+}
+nav{
+    background-color: #5B788A;
+    text-align: center;
+    box-shadow: 5px 5px 50px 10px black inset;
+}
+nav > div > div{
+    border-bottom: solid 1px white;
+    padding: 2vh;
+
+}
+nav > div > div > div >span{
+    border: solid 1px black;
+    background: #BBC0A2;
+    border-radius: 2px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+#contenido{
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50;
+}
+section{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    padding: 2vh;
+    background-color: rgba(0,0,0,0.7);
+    border: solid 1px black;
+    border-radius: 10px;
+    color: #D7D3AA;
+    box-shadow: -2px 1px 10px 1px #D7D3AA;
+}
+body{
+    background-color: black;
+}
+.search{
+    margin: auto;
+    margin-top: 2vh;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    border: solid 1px black;
+    border-radius: 10px;
+    color: #D7D3AA;
+    padding: 2vh;
+    box-shadow: -2px 1px 10px 1px #D7D3AA;
+}
+.search >div >div{
+    margin-top: 2vh;
+    height: 4vh;
+    border-bottom: solid 1px white;
+}
+h2{
+    color: white;
+    font-family: "Carter One";
+    text-shadow: -3px -1px 1px #683A35;
+}
